@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отзывы</title>
+  <script src="task1.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    #review-input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    #reviews-container {
+      margin-top: 20px;
+    }
+    .review {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Оставить отзыв</h2>
+  <textarea id="review-input" rows="4" placeholder="Введите ваш отзыв..."></textarea>
+  <br>
+  <button id="submit-review">Отправить отзыв</button>
+
+  <div id="reviews-container">
+    <!-- Сюда будут добавляться отзывы -->
+  </div>
+  
+  <script src="task2.js"></script>
+</body>
+</html>
